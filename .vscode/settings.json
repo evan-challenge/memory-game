@@ -1,0 +1,23 @@
+{
+    "eslint.options": {
+        "configFile": "./.eslintrc"
+    },
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+            "language": "typescript",
+            "autoFix": true
+        },
+        {
+            "language": "typescriptreact",
+            "autoFix": true
+        }
+    ],
+    "eslint.workingDirectories": [
+        "./packages/web",
+        "./packages/api"
+    ],
+    "typescript.tsdk": "node_modules/typescript/lib"
+}
